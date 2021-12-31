@@ -1,0 +1,149 @@
+body{
+    background: url("Images/fond_jaune.png");
+    font-family: Arial, sans-serif;
+}
+p{
+    color: #181818;
+}
+header,section,footer{
+    width: 900px;
+    margin: auto;
+}
+header{
+    background: url("Images/separateur.png") repeat-x bottom;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 15px;
+}
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+footer{
+    display: flex;
+    background: url("Images/ico_top.png") no-repeat top center , url("Images/separateur.png") repeat-x top , url("Images/ombre.png") repeat-x top;
+    padding-top: 25px;
+    font-size: 0.8em;
+}
+footer h2{
+    font-size: 1.1em;
+}
+.footOne{
+    width: 28%;
+}
+.footTwo{
+    width: 35%;
+}
+section p{
+    font-size: 0.8em;
+}
+section{
+    display: flex;
+}
+.Aside{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 0.9em;
+}
+.Aside img{
+    margin-right: 5px;
+}
+header img{
+    width: 59px;
+    height: 60px;
+}
+article h2 img{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.Aside div img{
+    border: 1px solid #181818;
+}
+.footTwo img{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+.footTwo p{
+    font-weight: bold;
+}
+.bulle{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style self*/
+nav li{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+article{
+    margin: 30px 0;
+}
+.footTwo p{
+    text-transform: uppercase;
+}
+.Aside p{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.Aside div{
+    margin-bottom: 5px;
+}
+.footTwo img{
+    width: 60px;
+    height: 60px;
+}
+section h2{
+    text-transform: uppercase;
+    font-size: 0.998em;
+}
+section article p{
+    font-size: 0.85em;
+}
